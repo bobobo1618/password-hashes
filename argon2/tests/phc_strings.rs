@@ -31,6 +31,10 @@ pub const VALID_PASSWORD_HASHES: &[&str] = &[
     "$argon2d$v=16$m=32,t=2,p=3,data=Dw8PDw8P$AAAAAAAAAAA$KnH4gniiaFnDvlA1xev3yovC4cnrrI6tnHOYtmja90o",
     // Password with optional keyid&data
     "$argon2d$v=16$m=32,t=2,p=3,keyid=8PDw8A,data=Dw8PDw8P$AAAAAAAAAAA$KnH4gniiaFnDvlA1xev3yovC4cnrrI6tnHOYtmja90o",
+
+    "$argon2d$v=19$m=4096,t=3,p=1$dGVzdHNhbHQ$nsSl2ElDhVTh0eBQJJsWGPpsb5V2M9KJZr9RgslMzcU",
+    "$argon2i$v=19$m=4096,t=3,p=1$dGVzdHNhbHQ$hhuaDXWshluiojXOoEx0t4LkbNjQFEZrEVul+wjLVeA",
+    "$argon2id$v=19$m=4096,t=3,p=1$dGVzdHNhbHQ$BVLg/PUSpG8kREfCC0RCrhR3bhv6RS7F/2pvA+wONu4",
 ];
 
 #[test]
